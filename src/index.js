@@ -1,9 +1,9 @@
 import express from 'express';
 import { StatusCodes } from 'http-status-codes';
 
+// Internal modules
 import connectDB from './config/dbConfig.js';
 import { PORT } from './config/serverConfig.js';
-
 import apiRouter from './routes/apiRoutes.js';
 const app = express();
 
